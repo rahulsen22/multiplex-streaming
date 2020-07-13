@@ -1,0 +1,93 @@
+body {
+	margin: auto 0;
+}
+
+.box {
+/*	padding: 20px;
+	margin: 20px;
+	display: inline-block;*/
+	border: 1px solid white;
+	/*border-radius: 4px;*/
+}
+
+/* NAVBAR */
+
+nav {
+	background-color: #D0D3D4;
+}
+
+.nav {
+	border: 1px solid #D0D3D4;
+}
+
+.main {
+	display: flex;
+	list-style: none;
+	padding: 30px;
+	margin: 0px;
+}
+
+.left {
+	margin-left: auto;
+}
+
+a {
+	margin: 10px;
+	text-decoration: none;
+	color: #273746;
+}
+
+.form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+h3 {
+	text-align: center;
+}
+
+.join {
+	border: 1px solid #D0D3D4;
+	border-radius: 4px;
+	background-color: #D0D3D4;
+	padding: 67px;
+}
+
+.td {
+	width: 19rem;
+	height: 2rem;
+	margin-top: 10px;
+	border-radius: 10px;
+	border-color: white;
+	background-color: white;
+	border: 1px solid white;
+}
+
+.tds {
+	width: 7rem;
+	height: 2rem;
+	border-radius: 17px;
+	border-color: white;
+	border: 1px solid white;
+	background-color: white;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.forgot-pass {
+	text-align: center;
+}
+
+.register {
+	font-size: 1.2rem;
+}
+
+p {
+	text-align: center;
+}
+
+
+
+

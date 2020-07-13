@@ -1,0 +1,248 @@
+body {
+	margin: auto 0;
+	background-color: #D0D3D4;
+	/*padding: 0;*/
+	/*background-color: #828230;*/
+}
+
+.zone {
+	/*padding: 20px;
+	margin: 20px;
+	display: inline-block;*/
+	border-top: 0.2px solid #080808 ;
+	border
+	/*border-radius: 4px;*/
+	font-size: 1rem;
+}
+
+/* NAVBAR */
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav {
+	background-color: #D0D3D4;
+}
+
+.nav {
+	border: 1px solid #D0D3D4;
+}
+
+.main {
+	display: flex;
+	list-style: none;
+	padding: 30px;
+	margin: 0px;
+}
+
+.left {
+	margin-left: auto;
+}
+
+a {
+	margin: 10px;
+	text-decoration: none;
+	color: #273746;
+}
+
+
+/* MAIN 1 */
+
+.container {
+	height: 100vh;
+	background: linear-gradient(
+      95deg, rgba(0, 0, 0, 0.90), 
+      rgba(0, 0, 0, 0.45)
+    ),
+
+	url(new-series.jpeg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.content-text {
+	padding-top: 165px;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*height: 50vh;*/
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.search-bar {
+	width: 27rem;
+	height: 2.5rem;
+	text-align: center;
+	color: white;
+	border: 0.5px solid gray;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* MAIN 2 */
+
+h2 {
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+
+h4 {
+	color: white;
+}
+
+p {
+	color: white;
+	text-align: center;
+	margin: auto 0;
+}
+
+.banner {
+	height: 67vh;
+	background: 
+	linear-gradient(
+      90deg, rgba(0, 0, 0, 0.99), 
+      rgba(0, 0, 0, 0.45)
+    ),
+	url(home-tv.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.entertainment {
+	padding-top: 120px;
+}
+
+.show {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.start-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.get-btn {
+	text-transform: uppercase;
+	width: 12rem;
+	height: 3rem;
+	background-color: #D0D3D4;
+	border: 1px solid #D0D3D4;
+	border-radius: 12px;
+}
+
+
+/* MAIN 3 */
+
+.poster {
+	height: 95vh;
+	background: 
+	linear-gradient(
+      90deg, rgba(0, 0, 0, 0.65), 
+      rgba(0, 0, 0, 0.45)
+    ),
+	url(pop-corn.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.white-space {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #D0D3D4;
+	border-radius: 4px;
+	background-color: rgba(208, 211, 212, 0.3);
+	height: 50vh;
+	margin: 145px;
+}
+
+@media only screen and (max-width: 600px){
+	.white-space {
+		height: 50vh;
+		margin-top: 100px;
+		margin-left: 80px;
+		margin-right: 50px;
+		
+	}
+
+	/*.white {
+		height: 10vh;
+		margin: 100px;
+	}*/
+
+	h3,p {
+	text-align: center;
+	color: white;
+	font-size: 0.70rem;
+	}
+
+	.signup-btn {
+		border: 1px solid #D0D3D4;
+		background-color: #D0D3D4;
+		border-radius: 10px;
+		width: 1em;
+		height: 0.7em;
+	}
+
+}
+
+/*.white {
+	border: 1px solid black;
+	border-radius: 10px 0 10px 0;
+	height: 20vh;
+	padding: 50px;
+}*/
+
+h3,p {
+	text-align: center;
+	color: white;
+}
+
+.signup-join-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.signup-btn {
+	width: 12rem;
+	height: 3rem;
+	border: 1px solid #D0D3D4;
+	background-color: #D0D3D4;
+	border-radius: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+	text-align: center;
+	padding: 40px;
+	background-color: #D0D3D4;
+	color: #273746;
+}
